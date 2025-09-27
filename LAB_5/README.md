@@ -120,6 +120,7 @@ If i0 = 0, y is not assigned, which can lead to inferred latch.
 ![incomp_if](Images/incomp_if.png)
 
 Synthesis:
+
 ![incomp_if_netlist](Images/incomp_if_netlist.png)
 
 ### Nested if else statement
@@ -149,6 +150,7 @@ If neither i0 nor i2 is 1, y is not assigned, potentially causing an inferred la
 ![incomp_if2](Images/incomp_if2.png)
 
 Synthesis:
+
 ![incomp_if2_netlist](Images/incomp_if2_netlist.png)
 
 ### Complete case statement
@@ -179,6 +181,7 @@ For all other sel values, y = i2 (handled by default)
 ![comp_case](Images/comp_case.png)
 
 Synthesis:
+
 ![comp_case_netlist](Images/comp_case_netlist.png)
 
 ### Incomplete case statement
@@ -322,7 +325,7 @@ always @(*) begin
 end
 endmodule
 ```
-![mux_generate](Images/mux_generate.png)
+![mux_generated](Images/mux_generated.png)
 
 ### 8x1 DEMUX using case
 ```verilog
@@ -372,7 +375,7 @@ always @(*) begin
 end
 endmodule
 ```
-![demux_generate](Images/demux_generate.png)
+![demux_generated](Images/demux_generated.png)
 ## Ripple Carry Adder (RCA)
 
 **Definition:**  
