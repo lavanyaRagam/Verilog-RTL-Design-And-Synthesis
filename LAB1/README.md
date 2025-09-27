@@ -107,7 +107,7 @@ Key Points:
 - Flexible scripting and automation  
 - Integrates with verification and optimization tools  
 
-![simulation flow](Images/simulation flow.png)
+![yosys](Images/yosys.png)
 
  Why Different Flavours of Gates?
 
@@ -168,11 +168,11 @@ abc -liberty /address/to/your/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```bash
 show
 ```
-![good mux netlist show](Images/good mux netlist show.png)
+![netlist](Images/netlist.png)
 
 7.Write the Synthesized Netlist
 ```bash
 write_verilog -noattr good_mux_net.v
 ```
 Verification of netlist:
-![good mux netlist show](Images/good mux netlist show.png)
+![synthesis verification](Images/synthesis verification.png)
