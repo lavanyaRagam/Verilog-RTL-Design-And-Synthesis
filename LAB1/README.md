@@ -107,7 +107,7 @@ Key Points:
 - Flexible scripting and automation  
 - Integrates with verification and optimization tools  
 
-![yosys](Images/yosys.png)
+![yosys setup](Images/yosys setup.png)
 
  Why Different Flavours of Gates?
 
