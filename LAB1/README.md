@@ -1,5 +1,4 @@
 
-
 # 🗓️ DAY-1 : Introduction to Verilog RTL design and synthesis
 
 On Day 1 of the lab, I learned how to invoke the tools installed during the previous week of the program. I executed a multiplexer design with its testbench, analyzed the simulation waveforms using GTKWave, and utilized Yosys to synthesize the Verilog code into a netlist.
@@ -140,12 +139,12 @@ Yosys Synthesis Flow:
 
 Follow these steps to synthesize a Verilog design using **Yosys**:
 
-1. **Invoke Yosys**  
-   ```bash
-   yosys
-    ```
+1.Invoke Yosys  
+```bash
+yosys
+```
 
-2. Read the Standard-Cell Library
+2.Read the Standard-Cell Library
 ```bash
 read_liberty -lib /address/to/your/sky130/file/sky130_fd_sc_hd__tt_025C_1v80.lib
 ```
