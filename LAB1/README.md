@@ -174,3 +174,5 @@ show
 ```bash
 write_verilog -noattr good_mux_net.v
 ```
+Verification of netlist:
+![good mux netlist show](Images/good mux netlist show.png)
