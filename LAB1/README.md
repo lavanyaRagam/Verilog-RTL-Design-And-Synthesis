@@ -29,7 +29,7 @@ Design is the actual verilog code or set of verilog codes which has the intended
 TESTBENCH:
 Testbench is the setup to apply stimulus to the design to check its functionality.
 
-![simulation flow](Images/simulation flow.png)
+![simulation flow](Images/simulationflow.png)
 
 
 ## Loading the design in iverilog
@@ -59,7 +59,7 @@ Open the generated .vcd file in GTKWave to visualize the simulation:
 gtkwave tb_good_mux.vcd
 ```
 
-![mux gtkwave](Images/mux gtkwave.png)
+![mux gtkwave](Images/muxgtkwave.png)
 ## Installation of Gvim
 
 Run the following command to install GVim:
@@ -107,7 +107,7 @@ Key Points:
 - Flexible scripting and automation  
 - Integrates with verification and optimization tools  
 
-![yosys setup](Images/yosys setup.png)
+![yosys setup](Images/yosyssetup.png)
 
  Why Different Flavours of Gates?
 
@@ -175,4 +175,4 @@ show
 write_verilog -noattr good_mux_net.v
 ```
 Verification of netlist:
-![synthesis verification](Images/synthesis verification.png)
+![synthesis verification](Images/synthesisverification.png)
