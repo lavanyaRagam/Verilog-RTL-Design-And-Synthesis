@@ -8,7 +8,7 @@ In this session, we’ll explore Verilog synthesis optimizations, including if-e
 
 - [If-Case Constructs in Verilog](#If-Case-Constructs-in-Verilog)
 - [Incomplete If-Case Statements](#incomplete-if-case-statements)
-- [Labs on Incomplete Case in Verilog:](Labs-on-Incomplete-Case-in-Verilog:)
+- [Labs on Incomplete Case in Verilog:](Labs-on-Incomplete-Case-in-Verilog)
   - [Incomplete if statement](#incomplete-if-statement)
   - [Nested if-else statement](#nested-if-else-statement)
   - [Complete case statement](#complete-case-statement)
@@ -16,7 +16,7 @@ In this session, we’ll explore Verilog synthesis optimizations, including if-e
   - [Partial assignment in case](#partial-assignment-in-case)
 
 - [For Loop and For-Generate in Verilog](For-Loop-and-For-Generate-in-Verilog)
-- [Labs on For Loop and For-Generate:](Labs-on-For-Loop-and-For-Generate:)
+- [Labs on For Loop and For-Generate:](Labs-on-For-Loop-and-For-Generate)
   - [4x1 MUX using for loop](#4x1-mux-using-for-loop)
   - [8x1 DEMUX using case](#8x1-demux-using-case)
   - [8x1 DEMUX using for loop](#8x1-demux-using-for-loop)
