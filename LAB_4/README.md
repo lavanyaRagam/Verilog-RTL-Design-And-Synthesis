@@ -224,11 +224,11 @@ always @ (*) begin
   d = x & c;
 end
 ```
-![blocking_caveat1](Images/blocking_caveat1.png)
+![blocking_caveat](Images/blocking_caveat.png)
 
 ### Lab 7:
 Perform synthesis on the fixed version of the module and examine the output behavior and results:
-![blocking_caveat](Images/blocking_caveat.png)
+![blocking_caveat1](Images/blocking_caveat1.png)
 
 
 
