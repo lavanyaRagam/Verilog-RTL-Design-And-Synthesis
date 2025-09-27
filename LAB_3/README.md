@@ -270,7 +270,7 @@ D flip-flop with asynchronous reset.
 Output q is reset to 0 when reset = 1.
 
 Output q becomes 1 on the next clock edge if reset = 0.
-![dff_const1](Images/dff_const1.png)
+![dff_const1_netlist](Images/dff_const1_netlist.png)
 ### Lab 6
 
 verilog code:
@@ -291,7 +291,7 @@ D flip-flop with asynchronous reset.
 Output q is always set to 1, independent of clock or reset.
 
 Demonstrates a constant-output flip-flop.
-![dff_const2](Images/dff_const2.png)
+![dff_const2_netlist](Images/dff_const2_netlist.png)
 
 ### Lab 7
 ```verilog
